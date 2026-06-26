@@ -138,3 +138,15 @@ document
         observer.observe(section);
 
     });
+    window.addEventListener("load", () => {
+
+    setTimeout(() => {
+
+        document
+            .getElementById("loader")
+            .classList
+            .add("fade-out");
+
+    }, 800);
+
+});
