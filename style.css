@@ -569,3 +569,61 @@ header {
 
     transform: translateY(0);
 }
+.plan-btn {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 24px;
+
+    background: var(--primary);
+
+    color: black;
+
+    text-decoration: none;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.plan-btn:hover {
+
+    transform: translateY(-4px);
+
+    opacity: 0.9;
+}
+.stars {
+
+    font-size: 1.2rem;
+
+    margin-bottom: 15px;
+
+    letter-spacing: 3px;
+}
+.primary-btn,
+.secondary-btn,
+.plan-btn,
+.client-card,
+.feature-card,
+.price-card {
+
+    transition: all 0.3s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.plan-btn:hover {
+
+    transform: translateY(-3px);
+}
+
+.client-card:hover,
+.feature-card:hover,
+.price-card:hover {
+
+    transform: translateY(-8px);
+}
